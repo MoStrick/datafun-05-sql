@@ -56,4 +56,11 @@ git push -u origin master
 
 ```
 
+### 4.1 Remove .venv from tracking
+```sh
+git rm -r --cached .venv
+git commit -m "Remove .venv directory from tracking"
+git push origin main
+```
+
 
