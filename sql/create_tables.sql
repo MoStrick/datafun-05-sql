@@ -28,3 +28,4 @@ CREATE TABLE authors (
     last_name TEXT,
     year_born INTEGER
 );
+

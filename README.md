@@ -20,6 +20,10 @@ source .venv/bin/activate
 ```sh
 pip install requests
 pip install pandas pyarrow
+import sqlite3
+import pandas as pd
+import pathlib
+import logging
 pip freeze > requirements.txt
 cat requirements.txt
 ```
@@ -62,5 +66,16 @@ git rm -r --cached .venv
 git commit -m "Remove .venv directory from tracking"
 git push origin main
 ```
+
+### Logging
+'''sh
+import logging
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.info("Program started") # add this at the beginning of the main method
+logging.info("Program ended")  # add this at the end of the main method
+'''
+
 
 
