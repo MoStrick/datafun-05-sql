@@ -37,3 +37,5 @@
 2024-06-03 03:20:27,742 - INFO - Database created successfully.
 2024-06-03 03:26:23,887 - INFO - Program started
 2024-06-03 03:26:23,887 - ERROR - File not found: /workspaces/datafun-05-sql/create_tables.sql
+2024-06-03 03:28:53,547 - INFO - SQL operations started
+2024-06-03 03:39:39,154 - INFO - SQL operations started
