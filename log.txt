@@ -53,3 +53,9 @@
 2024-06-03 04:17:35,890 - INFO - Database file path: your_database.db
 2024-06-03 04:17:35,890 - ERROR - Error executing SQL from delete_records.sql: no such table: books
 2024-06-03 04:17:35,891 - INFO - Database file path: your_database.db
+2024-06-03 04:34:00,365 - INFO - SQL operations started
+2024-06-03 04:34:00,365 - INFO - Database file path: your_database.db
+2024-06-03 04:34:00,366 - ERROR - Error executing SQL from update_records.sql: no such table: books
+2024-06-03 04:34:00,366 - INFO - Database file path: your_database.db
+2024-06-03 04:34:00,366 - ERROR - Error executing SQL from delete_records.sql: no such table: books
+2024-06-03 04:34:00,366 - INFO - Database file path: your_database.db

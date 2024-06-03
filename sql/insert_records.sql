@@ -1,3 +1,4 @@
+-- insert_records.sql
 
 -- Insert records into authors table
 INSERT INTO authors (author_id, first_name, last_name, year_born) VALUES ('1', 'George', 'Orwell', 1903);
