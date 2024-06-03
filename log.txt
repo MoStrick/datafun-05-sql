@@ -39,3 +39,17 @@
 2024-06-03 03:26:23,887 - ERROR - File not found: /workspaces/datafun-05-sql/create_tables.sql
 2024-06-03 03:28:53,547 - INFO - SQL operations started
 2024-06-03 03:39:39,154 - INFO - SQL operations started
+2024-06-03 03:46:09,666 - INFO - SQL operations started
+2024-06-03 03:57:30,887 - INFO - SQL operations started
+2024-06-03 04:04:42,545 - INFO - SQL operations started
+2024-06-03 04:04:42,545 - ERROR - Error executing SQL from update_records.sql: no such table: books
+2024-06-03 04:07:01,893 - INFO - SQL operations started
+2024-06-03 04:07:01,893 - INFO - Database file path: your_database.db
+2024-06-03 04:07:01,893 - ERROR - Error executing SQL from update_records.sql: no such table: books
+2024-06-03 04:07:01,894 - INFO - Database file path: your_database.db
+2024-06-03 04:17:35,890 - INFO - SQL operations started
+2024-06-03 04:17:35,890 - INFO - Database file path: your_database.db
+2024-06-03 04:17:35,890 - ERROR - Error executing SQL from update_records.sql: no such table: books
+2024-06-03 04:17:35,890 - INFO - Database file path: your_database.db
+2024-06-03 04:17:35,890 - ERROR - Error executing SQL from delete_records.sql: no such table: books
+2024-06-03 04:17:35,891 - INFO - Database file path: your_database.db
