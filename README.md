@@ -78,4 +78,30 @@ logging.info("Program ended")  # add this at the end of the main method
 '''
 
 
+## Running the Scripts
 
+1. Initialize the database:
+    ```sh
+    python db_initialize_yourname.py
+    ```
+
+2. Perform SQL operations:
+    ```sh
+    python db_operations_yourname.py
+    ```
+
+## SQL Files
+
+- `create_tables.sql` - Defines the database schema.
+- `insert_records.sql` - Inserts initial records into the tables.
+- `update_records.sql` - Updates records in the tables.
+- `delete_records.sql` - Deletes records from the tables.
+- `query_aggregation.sql` - Performs aggregation queries.
+- `query_filter.sql` - Filters data based on conditions.
+- `query_sorting.sql` - Sorts data.
+- `query_group_by.sql` - Groups data.
+- `query_join.sql` - Joins tables.
+
+## Logging
+
+Logs are written to `log.txt` for debugging and monitoring purposes.

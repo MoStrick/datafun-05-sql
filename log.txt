@@ -1,0 +1,25 @@
+2024-06-02 23:51:38,955 - INFO - Program started
+2024-06-02 23:51:38,955 - INFO - Creating database...
+2024-06-02 23:51:38,956 - INFO - Database created successfully.
+2024-06-02 23:53:34,838 - INFO - Program started
+2024-06-02 23:53:34,838 - INFO - Creating database...
+2024-06-02 23:53:34,838 - INFO - Database created successfully.
+2024-06-02 23:55:39,144 - INFO - Program started
+2024-06-02 23:55:39,144 - INFO - Creating database...
+2024-06-02 23:55:39,144 - INFO - Database created successfully.
+2024-06-02 23:56:43,295 - INFO - Program started
+2024-06-02 23:56:43,296 - INFO - Creating database...
+2024-06-02 23:56:43,296 - INFO - Database created successfully.
+2024-06-02 23:58:11,864 - INFO - Program started
+2024-06-02 23:58:11,865 - INFO - Creating database...
+2024-06-02 23:58:11,865 - INFO - Database created successfully.
+2024-06-03 00:00:32,785 - INFO - Program started
+2024-06-03 00:00:32,785 - INFO - Creating database...
+2024-06-03 00:00:32,785 - INFO - Database created successfully.
+2024-06-03 00:00:32,838 - INFO - Executed SQL from /workspaces/datafun-05-sql/sql/create_tables.sql
+2024-06-03 00:01:24,244 - INFO - Program started
+2024-06-03 00:01:24,244 - INFO - Creating database...
+2024-06-03 00:01:24,244 - INFO - Database created successfully.
+2024-06-03 00:01:24,244 - INFO - Executed SQL from /workspaces/datafun-05-sql/sql/create_tables.sql
+2024-06-03 00:01:24,333 - INFO - Executed SQL from /workspaces/datafun-05-sql/sql/insert_records.sql
+2024-06-03 00:01:24,334 - INFO - Program ended

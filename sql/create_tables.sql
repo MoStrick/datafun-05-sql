@@ -1,31 +1,15 @@
--- Start by deleting any tables if the exist already
--- We want to be able to re-run this script as needed.
--- DROP tables in reverse order of creation 
--- DROP dependent tables (with foreign keys) first
+-- create_tables.sql
 
-DROP TABLE IF EXISTS books;
-DROP TABLE IF EXISTS authors;
-
--- Create the books table
--- Note that the books table has a foreign key to the authors table
--- This means that the books table is dependent on the authors table
--- Be sure to create the standalone authors table BEFORE creating the books table.
-
-CREATE TABLE books (
-    book_id TEXT PRIMARY KEY,
-    title TEXT,
-    year_published INTEGER,
-    author_id TEXT,
-    FOREIGN KEY (author_id) REFERENCES authors(author_id)
+CREATE TABLE IF NOT EXISTS Users (
+    user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE
 );
 
--- Create the authors table 
--- Note that the author table has no foreign keys, so it is a standalone table
-
-CREATE TABLE authors (
-    author_id TEXT PRIMARY KEY,
-    first_name TEXT,
-    last_name TEXT,
-    year_born INTEGER
+CREATE TABLE IF NOT EXISTS Orders (
+    order_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    order_date TEXT NOT NULL,
+    amount REAL NOT NULL,
+    user_id INTEGER,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
-
