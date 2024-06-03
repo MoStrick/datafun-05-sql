@@ -23,3 +23,17 @@
 2024-06-03 00:01:24,244 - INFO - Executed SQL from /workspaces/datafun-05-sql/sql/create_tables.sql
 2024-06-03 00:01:24,333 - INFO - Executed SQL from /workspaces/datafun-05-sql/sql/insert_records.sql
 2024-06-03 00:01:24,334 - INFO - Program ended
+2024-06-03 02:51:52,187 - INFO - Program started
+2024-06-03 02:51:52,187 - INFO - Creating database...
+2024-06-03 02:51:52,192 - INFO - Database created successfully.
+2024-06-03 03:15:39,404 - INFO - Program started
+2024-06-03 03:15:39,405 - INFO - Creating database...
+2024-06-03 03:15:39,405 - INFO - Database created successfully.
+2024-06-03 03:18:21,936 - INFO - Program started
+2024-06-03 03:18:21,937 - INFO - Creating database...
+2024-06-03 03:18:21,937 - INFO - Database created successfully.
+2024-06-03 03:20:27,742 - INFO - Program started
+2024-06-03 03:20:27,742 - INFO - Creating database...
+2024-06-03 03:20:27,742 - INFO - Database created successfully.
+2024-06-03 03:26:23,887 - INFO - Program started
+2024-06-03 03:26:23,887 - ERROR - File not found: /workspaces/datafun-05-sql/create_tables.sql
