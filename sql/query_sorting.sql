@@ -1,5 +1,4 @@
--- query_sorting.sql
 
-SELECT * FROM Users ORDER BY username ASC;
-SELECT * FROM Orders ORDER BY amount DESC;
+SELECT * FROM authors ORDER BY last_name ASC;
+SELECT * FROM books ORDER BY year_published DESC;
 -- Add more sorting as needed

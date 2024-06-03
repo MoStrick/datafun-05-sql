@@ -1,6 +1,5 @@
 -- query_aggregation.sql
 
-SELECT user_id, COUNT(order_id) as order_count FROM Orders GROUP BY user_id;
-SELECT AVG(amount) as average_amount FROM Orders;
-SELECT SUM(amount) as total_amount FROM Orders;
+SELECT author_id, COUNT(book_id) as book_count FROM books GROUP BY author_id;
+SELECT AVG(year_published) as average_year FROM books;
 -- Add more aggregations as needed

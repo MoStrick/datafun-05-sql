@@ -1,4 +1,3 @@
--- delete_records.sql
 
-DELETE FROM Orders WHERE order_id = 1;
--- Add more deletions as needed
+DELETE FROM books WHERE book_id = '1';
+DELETE FROM authors WHERE author_id = '2';

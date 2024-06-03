@@ -1,6 +1,6 @@
 -- query_join.sql
 
-SELECT Users.username, Orders.order_date, Orders.amount
-FROM Users
-INNER JOIN Orders ON Users.user_id = Orders.user_id;
+SELECT authors.first_name, authors.last_name, books.title, books.year_published
+FROM authors
+INNER JOIN books ON authors.author_id = books.author_id;
 -- Add more joins as needed

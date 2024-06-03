@@ -21,7 +21,7 @@ def execute_sql_from_file(db_filepath, sql_file):
 def main():
     logging.info("SQL operations started")
     
-    db_filepath = 'project.db'
+    db_filepath = 'your_database.db'
 
     # Execute SQL files for various operations
     execute_sql_from_file(db_filepath, 'update_records.sql')
